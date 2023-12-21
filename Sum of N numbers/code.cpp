@@ -9,7 +9,6 @@ int main(){
     while (i<=n) {
         sum = sum + i;
         i+=1;
-        
     }
     cout<<"the sum is:"<<sum<<endl;
 }
