@@ -11,7 +11,7 @@ string getCurrentDateTime() {
     char buffer[80];
 
     timeinfo = localtime(&now);
-    strftime(buffer, sizeof(buffer), "%Y-%m-%d %I:%M:%S %p", timeinfo);
+    strftime(buffer, sizeof(buffer), "%d-%m-%Y %I:%M:%S %p", timeinfo);
 
     return buffer;
 }
