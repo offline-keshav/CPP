@@ -34,7 +34,7 @@ int main() {
     }
 
     // Execute the git push command
-    if (system("git push origin master") != 0) {
+    if (system("git push") != 0) {
         perror("Error running 'git push'");
         return 1;
     }
